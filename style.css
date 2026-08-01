@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4; 
+  padding: 40px 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Section Bio */
+.bio-section {
+  padding: 50px 40px 40px;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.artist-name {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.artist-subtitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d62828;
+  margin-bottom: 25px;
+}
+
+.artist-bio {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Zone de l'image principale avec fond noir */
+.feature {
+  background-color: #111; 
+}
+
+/* Classes Utiles pour les images */
+.transition {
+  transition: all 350ms ease-in-out;
+}
+
+.r-3-2 {
+  width: 100%;
+  padding-bottom: 66.667%;
+  background-color: transparent;
+}
+
+.image-holder {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Galerie */
+.gallery-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: #111;
+  border-top: 2px solid #222;
+}
+
+.gallery {
+  position: relative;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.item-wrapper {
+  cursor: pointer;
+  width: 20%; 
+  display: inline-block;
+  background-color: #111;
+  padding: 2px;
+}
+
+.gallery-item { opacity: 0.4; }
+.gallery-item.active { 
+  opacity: 1;
+  border: 2px solid #d62828;
+}
+.gallery-item:hover { opacity: 0.8; }
+
+/* Contrôles */
+.controls {
+  font-size: 0;
+  border-top: none;
+  background: #fff;
+  display: flex;
+}
+
+.move-btn {
+  flex: 1;
+  display: inline-block;
+  border: none;
+  color: #333;
+  background-color: transparent;
+  padding: 15px; 
+  font-size: 1.5rem;
+  transition: background 0.2s;
+}
+
+.move-btn:hover { background-color: #f9f9f9; }
+.move-btn.left { cursor: w-resize; border-right: 1px solid #eaeaea; }
+.move-btn.right { cursor: e-resize; }
