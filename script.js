@@ -92,7 +92,24 @@ rightBtn.addEventListener('mouseleave', stopMovement);
     'Axe Lalime_10.jpeg',
     'Axe Lalime_11.jpeg',
     'Axe Lalime_12.jpeg',
-    'Axe Lalime_13.jpeg'
+    'Axe Lalime_13.jpeg',  
+    'axe-acorn1910a.jpeg',
+    'axe-acorn2012.jpeg',
+    'axe-bw23.jpeg',
+    'axe-canes18.jpeg',
+    'axe-crackhousedeluxe.jpeg',
+    'axe-hochelaga2207-1.jpeg',
+    'axe-hochelaga2507.jpeg',
+    'axe-hochelaga2606.jpeg',
+    'axe-jdm2306.jpeg',
+    'axe-la40-2607ab.jpeg',
+    'axe-mural23.jpeg',
+    'axe-plazawalls1608.jpeg',
+    'axe-psc1902.jpeg',
+    'axe-rouen2405.jpeg',
+    'axe-sthenri1802.jpeg',
+    'axe-up21-1.jpeg',
+    'axe-vm2006.jpeg'  
   ];
   
   featured.style.backgroundImage = 'url("' + images[0] + '")';
